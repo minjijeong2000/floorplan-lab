@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+div {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+.kitchen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: pink;
+}
+
+.living {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: brown;
+}
+
+.bedroom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: green;
+}
+
+.bath {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: yellow;
+}
+
+.oven {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: gray;
+}
+
+.sink {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: aqua;
+}
